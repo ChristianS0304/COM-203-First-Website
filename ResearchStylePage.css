@@ -1,0 +1,194 @@
+html {
+    
+    background-color: #5fcc79;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: -8px;
+
+}
+
+header {
+    position: fixed;
+    background-color: #094a2c;
+    margin-top: -50px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+p .profile {
+    padding-bottom: 0px;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+#maintext {
+    align-content: center;
+}
+
+a {
+   text-decoration: none;
+    color: white;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+right: 0px;
+position: absolute;    
+display: inline-flex;
+
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.row p {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {
+    
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("typewriter-801921_1280.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+    max-width: 100%;
+    text-shadow: 6px 6px 6px #000000;
+}
+
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+    text-align: center;
+    font-size: 30px
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width:50%;
+  
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#myID {
+    position: fixed;
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    margin-top: 8px;
+    text-align: center;
+    
+}
+
+
+.topmenu {
+    position: fixed;
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    margin-top: 8px;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.hide {
+    opacity: 0;
+    left: -100%;
+}
+
+
+.show {
+    opacity: 1;
+    left: 0;
+}
+
+.col-sm-6 {
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px; 
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+    header .row, footer .row {
+    display: inline-block;
+    align-items: center;
+}
+    header nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        display: block;
+        left: 0px;   
+        font-size: 20px;
+        background-color: #094a2c;
+    }
+    
+    header {
+        text-align: center;
+        justify-content: center;
+        margin-top: -200px;
+    }
+    
+    header p {
+        padding-top: 10px
+        
+    }
+    
+    .jumbotron {
+        text-align: center;
+        margin-top: 200px;
+    }
+  }
+}
